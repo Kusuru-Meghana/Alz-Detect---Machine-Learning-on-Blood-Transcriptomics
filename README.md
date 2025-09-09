@@ -29,3 +29,17 @@ Here’s how the models performed (on held-out test set):
 | Logistic Regression (all features) | *0.903* | *0.927* |
 | XGBoost | *0.993* | *0.995* |
 | *20-gene Logistic Regression* | *0.806* | *0.841* |
+
+---
+
+## How to run it
+1. Clone this repo.  
+2. Create a virtual environment and install requirements:  
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate
+   pip install -r requirements.txt
+   ```
+3. Download the GEO dataset into `data/` .  
+4. Open and run `notebooks/alz_detect.ipynb`.  
+5. Check outputs in `reports/figures/` and models in `models/`.  
