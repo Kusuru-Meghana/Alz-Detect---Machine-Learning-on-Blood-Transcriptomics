@@ -21,3 +21,11 @@ and built a full machine learning pipeline — from raw probes to an interpretab
 - Validated with **5-fold cross-validation**, making sure feature selection stayed **inside each fold** (to avoid leakage).  
 
 ---
+## Results 
+Here’s how the models performed (on held-out test set):  
+
+| Model | ROC AUC | PR AUC |
+|------:|:-------:|:------:|
+| Logistic Regression (all features) | *fill in* | *fill in* |
+| XGBoost | *fill in* | *fill in* |
+| **20-gene Logistic Regression** | **fill in** | **fill in** |
