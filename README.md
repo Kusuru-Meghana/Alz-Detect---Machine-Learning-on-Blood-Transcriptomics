@@ -42,6 +42,10 @@ Here’s how the models performed (on held-out test set):
 **Precision–Recall Curve**  
 ![PR Curve](reports/figures/PR_20gene.png)
 
+**Confusion Matrix (best F1 threshold)**  
+![Confusion Matrix](reports/figures/ConfMatrix_20gene.png)
+
+
 ---
 
 ## How to run it
