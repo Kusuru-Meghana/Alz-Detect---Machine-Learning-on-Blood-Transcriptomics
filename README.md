@@ -45,21 +45,46 @@ I used **SHAP** to explain the 20-gene logistic regression model:
 ![SHAP Summary](reports/figures/SHAP_20gene.png)
 
 
+---
 
+## Interpretation
 
+Top probes (e.g., ILMN_1798485, ILMN_1764500) influence prediction strongly.
 
+These genes are linked to immune and vascular processes — pathways previously implicated in Alzheimer’s.
 
+The 20-gene signature highlights biologically plausible markers.
+
+## Integrated Conclusion
+
+The results show -
+
+- Blood transcriptomics contains detectable Alzheimer’s signals.
+
+- A compact 20-gene logistic regression model can capture these signals with solid accuracy.
+
+- SHAP interpretability connects model features back to known biology, increasing trust.
 
 ---
 
-## How to run it
-1. Clone this repo.  
-2. Create a virtual environment and install requirements:  
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate
-   pip install -r requirements.txt
-   ```
-3. Download the GEO dataset into `data/` .  
-4. Open and run `notebooks/alz_detect.ipynb`.  
-5. Check outputs in `reports/figures/` and models in `models/`.  
+## How to Run
+Google Colab / Local
+
+Clone this repo.
+
+Create a virtual environment & install requirements:
+
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+
+
+Download the dataset into data/.
+
+Run the notebook: notebooks/alz_detect.ipynb.
+
+Outputs:
+
+Figures → reports/figures/
+
+Models → models/
