@@ -49,11 +49,11 @@ I used **SHAP** to explain the 20-gene logistic regression model:
 
 ## Interpretation
 
-Top probes (e.g., ILMN_1798485, ILMN_1764500) influence prediction strongly.
+- Top probes (e.g., ILMN_1798485, ILMN_1764500) influence prediction strongly.
 
-These genes are linked to immune and vascular processes — pathways previously implicated in Alzheimer’s.
+- These genes are linked to immune and vascular processes — pathways previously implicated in Alzheimer’s.
 
-The 20-gene signature highlights biologically plausible markers.
+- The 20-gene signature highlights biologically plausible markers.
 
 ## Integrated Conclusion
 
