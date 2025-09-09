@@ -43,7 +43,7 @@ Here’s how the models performed (on held-out test set):
 ![PR Curve](reports/figures/PR_20gene.png)
 
 **Confusion Matrix (best F1 threshold)**  
-!reports/figures/ConfMatrix_20gene.pngConfusion Matrix.png
+![Confusion Matrix](reports/figures/ConfMatrix_20gene.png)
 
 ## Interpretability (SHAP)
 
