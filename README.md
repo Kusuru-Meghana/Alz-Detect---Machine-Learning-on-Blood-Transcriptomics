@@ -11,7 +11,19 @@ So I took a real dataset from the Gene Expression Omnibus (**GSE63060** on platf
 and built a full machine learning pipeline — from raw probes to an interpretable **20-gene signature**.  
 
 ---
+# Data
 
+This project uses the **GSE63060** dataset (Illumina HumanHT-12 V3.0 expression beadchip, platform GPL6947) from the Gene Expression Omnibus (GEO).
+
+- GEO Accession: [GSE63060](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63060)  
+- Platform: GPL6947  
+- Sample count: 329 (Alzheimer’s and controls)  
+
+## Usage
+To run the pipeline:
+1. Download the dataset from GEO (Series Matrix File).  
+2. Place the processed CSV into this `data/` folder with the name `alzheimers_blood.csv`.  
+-----
 ## What I did
 - Downloaded and parsed GEO data (expression + metadata).  
 - Mapped **Illumina probes → gene symbols**.  
@@ -79,12 +91,9 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 
-Download the dataset into data/.
-
 Run the notebook: notebooks/alz_detect.ipynb.
 
 Outputs:
 
 Figures → reports/figures/
 
-Models → models/
