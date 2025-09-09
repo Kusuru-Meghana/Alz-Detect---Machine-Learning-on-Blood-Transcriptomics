@@ -51,7 +51,11 @@ Understanding *why* the model makes predictions is crucial in healthcare ML.
 I used **SHAP** to explain the 20-gene logistic regression model:
 
 **SHAP Summary Plot (20-gene model)**  
-![SHAP Summary](reports/figures/shap_20gene.png)
+![SHAP Summary](reports/figures/SHAP_20gene.png)
+
+
+
+
 
 ---
 
