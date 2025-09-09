@@ -22,15 +22,6 @@ and built a full machine learning pipeline — from raw probes to an interpretab
 
 ---
 ## Results 
-Here’s how the models performed (on held-out test set):  
-
-| Model | ROC AUC | PR AUC |
-|------:|:-------:|:------:|
-| Logistic Regression (all features) | *0.903* | *0.927* |
-| XGBoost | *0.993* | *0.995* |
-| *20-gene Logistic Regression* | *0.806* | *0.841* |
-
-
 ## Results (20-gene Signature)
 
 - ROC AUC = **0.806**
@@ -52,6 +43,7 @@ I used **SHAP** to explain the 20-gene logistic regression model:
 
 **SHAP Summary Plot (20-gene model)**  
 ![SHAP Summary](reports/figures/SHAP_20gene.png)
+
 
 
 
